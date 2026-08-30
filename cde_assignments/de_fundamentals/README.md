@@ -103,7 +103,7 @@ The objective is to move from a pipeline that only works when manually operated 
 | File | Description |
 |---|---|
 | `README.md` | Project overview and design rationale |
-| `Beejan_Technologies.png.png` | Visual representation of the data pipeline framework |
+| `Beejan_Technologies.png` | Visual representation of the data pipeline framework |
 | `Beejan Technologies.drawio` | Editable draw.io version of the architecture |
 | `Beejan Technologies Data Pipeline Framework.docx` | Written design discussion |
 
