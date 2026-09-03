@@ -1,5 +1,4 @@
 
-
 #!/bin/bash
 
 # This will be the root directory for this exercise
