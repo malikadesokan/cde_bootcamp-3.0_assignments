@@ -17,19 +17,20 @@ CSV_FILE="annual-enterprise-survey-2023-financial-year-provisional.csv"
 
 wget "$CSV_URL" -O "raw/$CSV_FILE"
 
-raw_folder_check=$(ls "$logfile/raw")
-
+# The command replaces the header Variable_code with variable_code in the CSV file.
 sed -i '1s/Variable_code/variable_code/' "$logfile/raw/$CSV_FILE"
 
+# The commands create a Transformed folder in the root directory and then uses gawk to extract the first, ninth, fifth, and sixth columns from the CSV file. It then saves the extracted data in a new CSV file called 2023_year_finance.
 mkdir -p "$logfile/Transformed"
 
 gawk 'BEGIN { FPAT = "([^,]+)|(\"[^\"]+\")" } { print $1 "," $9 "," $5 "," $6 }' "$logfile/raw/$CSV_FILE" >"$logfile/Transformed/2023_year_finance.csv"
 
+# The commands create a Gold folder in the root directory and then copies the 2023_year_finance.csv file from the Transformed folder to the Gold folder.
 mkdir -p "$logfile/Gold"
 
 cp  "$logfile/Transformed/2023_year_finance.csv" "$logfile/Gold" 
 
-
+# The commands check if the raw, Transformed, and Gold folders have files in them and then prints the file names in each folder.
 raw_folder_check=$(ls "$logfile/raw")
 Transformed_folder_check=$(ls "$logfile/Transformed")
 Gold_folder_check=$(ls "$logfile/Gold")
