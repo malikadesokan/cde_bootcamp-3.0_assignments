@@ -1,0 +1,3 @@
+# This is a log file for the cron jobs that run the data ingestion pipeline.
+
+0 0 * * * bash /home/user/ingest.sh >> /home/user/cron_jobs.log 2>&1

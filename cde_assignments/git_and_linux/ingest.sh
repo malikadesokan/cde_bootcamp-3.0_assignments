@@ -1,6 +1,8 @@
 
 #!/bin/bash
 
+source /mnt/c/Users/adeso/OneDrive/Documents/cde/cde_assignments/git_and_linux/ingest.env
+
 # ============================================================
 # Annual Enterprise Survey - Data Ingestion Pipeline
 # ============================================================
