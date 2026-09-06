@@ -1,7 +1,7 @@
 ============================================================
 STEP 1: Setting up the root directory
 ============================================================
-Root directory: /home/adeso
+Root directory: /home/User/cde_assignments/git_and_linux
 
 ============================================================
 STEP 2: Checking CSV_URL environment variable
@@ -18,7 +18,7 @@ CSV filename: annual-enterprise-survey-2023-financial-year-provisional.csv
 STEP 4: Creating the Raw directory
 ============================================================
 Raw directory is ready.
-Location: /home/adeso/raw
+Location: /home/User/cde_assignments/git_and_linux/raw
 
 ============================================================
 STEP 5: Downloading the CSV file
@@ -31,7 +31,7 @@ Resolving www.stats.govt.nz (www.stats.govt.nz)... 45.60.65.173
 Connecting to www.stats.govt.nz (www.stats.govt.nz)|45.60.65.173|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 8065547 (7.7M) [application/octet-stream]
-Saving to: ‘/home/adeso/raw/annual-enterprise-survey-2023-financial-year-provisional.csv’
+Saving to: ‘/home/User/cde_assignments/git_and_linux/raw/annual-enterprise-survey-2023-financial-year-provisional.csv’
 
      0K .......... .......... .......... .......... ..........  0% 2.30M 3s
     50K .......... .......... .......... .......... ..........  1% 2.11M 3s
@@ -192,11 +192,11 @@ Saving to: ‘/home/adeso/raw/annual-enterprise-survey-2023-financial-year-provi
   7800K .......... .......... .......... .......... .......... 99% 2.82M 0s
   7850K .......... .......... ......                          100% 4.13M=4.2s
 
-2026-09-06 18:27:07 (1.81 MB/s) - ‘/home/adeso/raw/annual-enterprise-survey-2023-financial-year-provisional.csv’ saved [8065547/8065547]
+2026-09-06 18:27:07 (1.81 MB/s) - ‘/home/User/cde_assignments/git_and_linux/raw/annual-enterprise-survey-2023-financial-year-provisional.csv’ saved [8065547/8065547]
 
 
 Download completed successfully.
-File saved to: /home/adeso/raw/annual-enterprise-survey-2023-financial-year-provisional.csv
+File saved to: /home/User/cde_assignments/git_and_linux/raw/annual-enterprise-survey-2023-financial-year-provisional.csv
 
 ============================================================
 STEP 6: Updating the CSV header
@@ -208,7 +208,7 @@ CSV header updated successfully.
 STEP 7: Creating the Transformed directory
 ============================================================
 Transformed directory is ready.
-Location: /home/adeso/Transformed
+Location: /home/User/cde_assignments/git_and_linux/Transformed
 
 ============================================================
 STEP 8: Transforming the CSV data
@@ -221,19 +221,19 @@ Extracting columns:
 
 Transformation completed successfully.
 Transformed file:
-/home/adeso/Transformed/2023_year_finance.csv
+/home/User/cde_assignments/git_and_linux/Transformed/2023_year_finance.csv
 
 ============================================================
 STEP 9: Creating the Gold directory
 ============================================================
 Gold directory is ready.
-Location: /home/adeso/Gold
+Location: /home/User/cde_assignments/git_and_linux/Gold
 
 ============================================================
 STEP 10: Loading data into the Gold directory
 ============================================================
 File successfully copied to Gold.
-Location: /home/adeso/Gold/2023_year_finance.csv
+Location: /home/User/cde_assignments/git_and_linux/Gold/2023_year_finance.csv
 
 ============================================================
 STEP 11: Checking pipeline output
@@ -252,5 +252,5 @@ Files in Gold folder:
 DATA PIPELINE COMPLETED SUCCESSFULLY
 ============================================================
 Pipeline completed at: Sun Sep  6 18:27:07 BST 2026
-Root directory: /home/adeso
+Root directory: /home/User/cde_assignments/git_and_linux
 
