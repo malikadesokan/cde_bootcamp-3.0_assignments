@@ -1,6 +1,8 @@
 
 #!/bin/bash
 
+echo "Pipeline started at: $(date)"
+
 source home/user/cde_assignments/git_and_linux/ingest.env
 
 # ============================================================
