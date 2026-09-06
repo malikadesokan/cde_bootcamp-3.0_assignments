@@ -14,7 +14,7 @@
 #
 # 2. Transform:
 #    - Change the CSV header "Variable_code" to "variable_code"
-#    - Extract columns 1, 9, 5 and 6 using gawk
+#    - Extract year, value, unit and variable_code using gawk
 #
 # 3. Load:
 #    Copy the transformed file into the Gold folder.
@@ -51,7 +51,7 @@ echo "============================================================"
 
 # The URL is obtained from the CSV_URL environment variable.
 #
-# We do NOT define CSV_URL in this script.
+# CSV_URL is not hard-coded in this script.
 # It must already exist in the environment.
 
 if [ -z "$CSV_URL" ]; then
@@ -152,11 +152,7 @@ echo "============================================================"
 echo "STEP 6: Updating the CSV header"
 echo "============================================================"
 
-echo "Changing:"
-echo "Variable_code"
-echo "to:"
-echo "variable_code"
-echo ""
+echo "Changing Variable_code to variable_code in the CSV header."
 
 # sed modifies the first line of the CSV file.
 #
@@ -196,10 +192,10 @@ echo "STEP 8: Transforming the CSV data"
 echo "============================================================"
 
 echo "Extracting columns:"
-echo "  Column 1"
-echo "  Column 9"
-echo "  Column 5"
-echo "  Column 6"
+echo "  Column 1 - Year"
+echo "  Column 9 - Value"
+echo "  Column 5 - Unit"
+echo "  Column 6 - Variable Code"
 echo ""
 
 # FPAT allows gawk to recognise fields that may contain commas
