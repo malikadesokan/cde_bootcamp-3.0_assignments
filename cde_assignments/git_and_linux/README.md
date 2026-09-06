@@ -263,7 +263,8 @@ A simplified representation of the project is:
 git_and_linux/
 │
 ├── .gitignore
-├── .env
+├── logfile.txt
+├── cron_jobs.log
 ├── README.md
 │
 ├── ingest.sh
