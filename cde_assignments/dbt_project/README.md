@@ -34,13 +34,12 @@ The data model is intended to help answer questions such as:
 
 ## Technology Stack
 
-  Technology     Purpose
-  -------------- -----------------------------------------------------------
-  Databricks     Data platform and execution environment
-  dbt            SQL-based transformations, model organisation and testing
-  SQL            Data transformation and analysis
-  Git / GitHub   Version control and project documentation
-
+| Technology | Purpose |
+|---|---|
+| Databricks | Data platform and execution environment |
+| dbt | SQL-based transformations, model organisation and testing |
+| SQL | Data transformation and analysis |
+| Git / GitHub | Version control and project documentation |
 
 ## Data Sources
 
