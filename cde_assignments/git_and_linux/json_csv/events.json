@@ -1,0 +1,17 @@
+[
+  {
+    "event_id": "E001",
+    "customer_id": 1,
+    "event": "login"
+  },
+  {
+    "event_id": "E002",
+    "customer_id": 2,
+    "event": "purchase"
+  },
+  {
+    "event_id": "E003",
+    "customer_id": 3,
+    "event": "logout"
+  }
+]
