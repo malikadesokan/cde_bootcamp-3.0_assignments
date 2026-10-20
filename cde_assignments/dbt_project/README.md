@@ -150,17 +150,8 @@ Potential outputs include:
 
 The project focuses on advertising performance measures such as:
 
-  -----------------------------------------------------------------------
-  Metric                              Meaning
-  ----------------------------------- -----------------------------------
-  Spend                               Amount spent on advertising
+**Work in progress
 
-  Impressions                         Number of times an advert was
-                                      displayed
-
-  Clicks                              Number of clicks recorded
-
-  -----------------------------------------------------------------------
 
 
 ## Data Quality and Testing
