@@ -290,7 +290,7 @@ campaign performance easier to analyse across Facebook and Snapchat.
 
 The dbt lineage graph illustrates how Facebook and Snapchat advertising data flows from source tables through the staging, intermediate and mart layers to support campaign performance analysis.
 
-![dbt lineage graph showing Facebook and Snapchat data transformations](images/dbt_lineage.png)
+![dbt lineage graph showing Facebook and Snapchat data transformations](./dbt_lineage.png)
 
 
 
