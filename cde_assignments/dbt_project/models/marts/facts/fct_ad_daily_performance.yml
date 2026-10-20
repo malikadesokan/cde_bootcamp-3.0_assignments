@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: fct_ad_daily_performance
+    description: "Facebook ad stats"
+    columns:
+      - name: ad_id
+        data_tests:
+          - not_null

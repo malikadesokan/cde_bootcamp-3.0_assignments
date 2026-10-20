@@ -1,0 +1,30 @@
+
+version: 2
+models:
+  - name: int_fcb_ad_performance
+    description: Facebook ad performance
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - ad_id
+            - ad_date
+
+
+  - name: int_snapchat_ad_performance
+    description: Snapchat ad performance
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - ad_id
+            - ad_date
+
+  - name: int_ad_performance
+    description: Snapchat ad performance
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - ad_id
+            - ad_date
+      
+
+ 
