@@ -298,6 +298,8 @@ While working on this, I encountered the following challenges
 -   Separating staging, intermediate and mart transformations
 -   Configuring dbt targets and Databricks schemas
 -   Adding tests to protect data quality
+-   This project domain is an unfamiliar topic so it took a while to actually understand the tables
+    or how they are connect
 
 
 ## Future Improvements
